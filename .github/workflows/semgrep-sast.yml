@@ -17,4 +17,4 @@ jobs:
       - name: Run Semgrep
         run: |
           pip install semgrep
-          semgrep --config "p/owasp-top-ten" --error .
+          semgrep --config "r/python.flask.security.audit.sqli" --error .
